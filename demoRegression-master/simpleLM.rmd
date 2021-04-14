@@ -70,4 +70,4 @@ summary.lm(ChestModel)
 
 ##Summary Statement
 
-Six separate models were developed to predict bear lengths based on other measurements and characteristics. Head length was the most accurate predictor of length
+Six separate models were developed to predict bear lengths based on other measurements and characteristics. Head length was the most accurate predictor of length. 
