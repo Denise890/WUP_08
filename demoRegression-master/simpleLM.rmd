@@ -51,3 +51,23 @@ plot(LENGTH~HEADLEN,data=bears)
 abline(HeadLengthModel)
 summary.lm(HeadLengthModel)
 ```
+
+```{r}
+HeadWidthModel <-lm(LENGTH~HEADWTH,data=bears)
+plot(LENGTH~HEADWTH,data=bears)
+abline(HeadWidthModel)
+summary.lm(HeadWidthModel)
+```
+
+```{r}
+ChestModel <-lm(LENGTH~CHEST,data=bears)
+plot(LENGTH~CHEST,data=bears)
+abline(ChestModel)
+summary.lm(ChestModel)
+```
+
+
+
+##Summary Statement
+
+Six separate models were developed to predict bear lengths based on other measurements and characteristics. Head length was the most accurate predictor of length
